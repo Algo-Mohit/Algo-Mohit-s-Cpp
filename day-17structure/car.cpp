@@ -25,16 +25,19 @@ int main()
     cout<<"Enter price : ";
     cin>>car_specs.price;
     cout<<"Enter fuel type : ";
+    cin.ignore();
     getline(cin,car_specs.fuel_type);
     cout<<"Enter launching year : ";
     cin>>car_specs.launching_year;
-     cout<<"Enter tranmission mode : ";
+    cout<<"Enter tranmission mode : ";
+    cin.ignore();
     getline(cin,car_specs.transmission);
     cout<<"Enter horse power : ";
     cin>>car_specs.horsepower;
-     cout<<"Enter chesis number : ";
+    cout<<"Enter chesis number : ";
+    cin.ignore();
     getline(cin,car_specs.cheis_number);
-     cout<<"Enter vehicle type (ex. SUV , MUV etc) : ";
+    cout<<"Enter vehicle type (ex. SUV , MUV etc) : ";
     getline(cin,car_specs.vehicle_type);
 
     cout<<"\n\n\n\n\n";
